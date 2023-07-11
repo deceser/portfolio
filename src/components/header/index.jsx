@@ -5,7 +5,7 @@ import { VscGrabber, VscClose } from "react-icons/vsc";
 import { socialProfils } from "src/utils/fakeData/social";
 import { logoText } from "src/utils/fakeData/content_option";
 
-import Themetoggle from "../themetoggle";
+import ThemeToggle from "../themeToggle";
 
 import "./index.css";
 
@@ -25,7 +25,7 @@ const Header = () => {
             {logoText}
           </NavLink>
           <div className="d-flex align-items-center">
-            <Themetoggle />
+            <ThemeToggle />
             <button className="menu__button  nav_ac" onClick={handleToggle}>
               {isActive ? <VscGrabber /> : <VscClose />}
             </button>
