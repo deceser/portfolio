@@ -1,7 +1,7 @@
 export const dataPortfolio = [
   {
     img: "src/assets/images/pizza-order.png",
-    description: "Pizza-shop/ Order-App.",
+    description: "Pizza-shop Order-App.",
     link: "https://pizzas-order.vercel.app/",
   },
   {
@@ -13,5 +13,10 @@ export const dataPortfolio = [
     img: "src/assets/images/payment.png",
     description: "Multi-step-form App.",
     link: "https://multi-step-form-two-sigma.vercel.app/",
+  },
+  {
+    img: "src/assets/images/coffee-order.png",
+    description: "Coffee-Delivery Order-App.",
+    link: "https://coffee-delivery-next-ts.vercel.app/",
   },
 ];
