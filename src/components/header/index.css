@@ -4,6 +4,10 @@
   padding-right: 10px;
 }
 
+.items {
+  background-color: var(--primary-color);
+}
+
 .menu__button {
   color: var(--text-color);
 }
@@ -47,6 +51,7 @@
   position: fixed;
   z-index: 999999;
   background: var(--primary-color);
+
 }
 
 .br-top {
