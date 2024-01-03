@@ -37,7 +37,7 @@ const Home = () => {
               </h1>
               <p className="mb-1x">{introData.description}</p>
               <div className="intro_btn-action pb-5">
-                <NavLink to="/portfolio" className="text_2">
+                <NavLink to="portfolio" className="text_2">
                   <div id="button_p" className="ac_btn btn ">
                     My Portfolio
                     <div className="ring one"></div>
@@ -45,7 +45,7 @@ const Home = () => {
                     <div className="ring three"></div>
                   </div>
                 </NavLink>
-                <NavLink to="/contact">
+                <NavLink to="contact">
                   <div id="button_h" className="ac_btn btn">
                     Contact Me
                     <div className="ring one"></div>
@@ -53,7 +53,7 @@ const Home = () => {
                     <div className="ring three"></div>
                   </div>
                 </NavLink>
-                <NavLink to="/about">
+                <NavLink to="about">
                   <div id="button_p" className="ac_btn btn">
                     About Me
                     <div className="ring one"></div>

@@ -43,17 +43,17 @@ const Header = () => {
                     </NavLink>
                   </li>
                   <li className="menu_item">
-                    <NavLink onClick={handleToggle} to="/portfolio" className="my-3">
+                    <NavLink onClick={handleToggle} to="portfolio" className="my-3">
                       Portfolio
                     </NavLink>
                   </li>
                   <li className="menu_item">
-                    <NavLink onClick={handleToggle} to="/about" className="my-3">
+                    <NavLink onClick={handleToggle} to="about" className="my-3">
                       About
                     </NavLink>
                   </li>
                   <li className="menu_item">
-                    <NavLink onClick={handleToggle} to="/contact" className="my-3">
+                    <NavLink onClick={handleToggle} to="contact" className="my-3">
                       Contact
                     </NavLink>
                   </li>
