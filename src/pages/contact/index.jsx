@@ -25,7 +25,8 @@ const Contact = () => {
     setFormdata({ loading: true });
 
     const { email, name, message } = formData;
-    const { YOUR_EMAIL, YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, YOUR_USER_ID } = contactConfig;
+    const { YOUR_EMAIL, YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, YOUR_USER_ID, YOUR_UPWORK } =
+      contactConfig;
 
     const templateParams = {
       from_name: email,
@@ -94,14 +95,15 @@ const Contact = () => {
           <Col lg="5" className="mb-5">
             <h3 className="color_sec py-4">Get in touch</h3>
             <address>
-              <strong>Email:</strong>{" "}
-              <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>{contactConfig.YOUR_EMAIL}</a>
+              <strong>
+                <a href={`${contactConfig.YOUR_UPWORK}`}>Upwork - click me</a>
+              </strong>
               <br />
               <br />
               {contactConfig.hasOwnProperty("YOUR_FONE") ? (
-                <a href={contactConfig.YOUR_FONE}>
-                  <strong>Telegram:</strong> {contactConfig.YOUR_FONE}
-                </a>
+                <strong>
+                  <a href={contactConfig.YOUR_FONE}>Telegram - click me</a>
+                </strong>
               ) : (
                 ""
               )}

@@ -4,6 +4,7 @@ export const contactConfig = {
   YOUR_SERVICE_ID: import.meta.env.VITE_REACT_APP_YOUR_SERVICE_ID,
   YOUR_TEMPLATE_ID: import.meta.env.VITE_REACT_APP_YOUR_TEMPLATE_ID,
   YOUR_USER_ID: import.meta.env.VITE_REACT_APP_YOUR_USER_ID,
+  YOUR_UPWORK: import.meta.env.VITE_REACT_APP_YOUR_UPWORK,
   description: "Contact me for cooperation.",
 };
 

@@ -54,6 +54,8 @@ h6 {
 a,
 a:hover {
   color: var(--text-color);
+  text-decoration: none;
+  margin-left: 2px;
 }
 
 p {
