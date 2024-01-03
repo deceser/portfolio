@@ -8,6 +8,26 @@ import { dataPortfolio } from "src/utils/fakeData/portfolio";
 import "./index.css";
 
 const Portfolio = () => {
+  const [portfolioData, setPortfolioData] = React.useState([]);
+
+  React.useEffect(() => {
+    const fetchData = async () => {
+      const data = await Promise.all(
+        dataPortfolio.map(async (item) => {
+          const imageModule = await item.image;
+          return {
+            image: imageModule.default, // Важно использовать .default
+            description: item.description,
+            link: item.link,
+          };
+        }),
+      );
+      setPortfolioData(data);
+    };
+
+    fetchData();
+  }, []);
+
   return (
     <HelmetProvider>
       <Container className="About-header">
@@ -23,10 +43,10 @@ const Portfolio = () => {
           </Col>
         </Row>
         <div className="mb-5 po_items_ho">
-          {dataPortfolio.map((data, i) => {
+          {portfolioData.map((data) => {
             return (
-              <div key={i} className="po_item">
-                <img src={data.img} alt="" />
+              <div key={data.description} className="po_item">
+                <img src={data?.image} alt={data.description} />
                 <div className="content">
                   <p>{data.description}</p>
                   <a href={data.link}>view project</a>
