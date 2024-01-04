@@ -23,7 +23,6 @@
   background: var(--secondary);
   border-radius: 0;
   box-shadow: none;
-  margin-bottom: 30px;
   overflow: visible;
 }
 
@@ -33,16 +32,6 @@
   animation: animate-positive 2s;
   overflow: visible;
   opacity: 0.9;
-}
-
-.progress .progress-value {
-  position: absolute;
-  top: -30px;
-  right: 8px;
-  font-size: 17px;
-  font-weight: bold;
-  font-style: italic;
-  color: var(--text-color);
 }
 
 @-webkit-keyframes animate-positive {

@@ -1,18 +1,37 @@
-export const skills = [
+export const skillsFront = [
   {
     name: "HTML5/CSS3",
-    value: 99,
+    value: 28,
   },
   {
-    name: "JavaScript",
-    value: 85,
+    name: "JavaScript/TypeScript",
+    value: 44,
   },
   {
     name: "React/Next",
-    value: 80,
+    value: 22,
   },
   {
     name: "Vue-3/Nuxt",
-    value: 40,
+    value: 23,
+  },
+  {
+    name: "React Native",
+    value: 26,
+  },
+];
+
+export const skillsBack = [
+  {
+    name: "Node/Express",
+    value: 38,
+  },
+  {
+    name: "Firebase/Firestore",
+    value: 50,
+  },
+  {
+    name: "SQL/PostgreSQL",
+    value: 48,
   },
 ];
