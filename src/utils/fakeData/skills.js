@@ -31,7 +31,7 @@ export const skillsBack = [
     value: 50,
   },
   {
-    name: "SQL/PostgreSQL",
-    value: 48,
+    name: "SQL/PostgreSQL/MongoDB",
+    value: 75,
   },
 ];
