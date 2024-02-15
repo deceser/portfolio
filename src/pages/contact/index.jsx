@@ -102,7 +102,7 @@ const Contact = () => {
               <br />
               {contactConfig.hasOwnProperty("YOUR_FONE") ? (
                 <strong>
-                  <a href={contactConfig.YOUR_FONE}>Telegram - click me</a>
+                  <a href={""}>Telegram - click me</a>
                 </strong>
               ) : (
                 ""
