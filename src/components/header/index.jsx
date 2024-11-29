@@ -52,11 +52,11 @@ const Header = () => {
                       About
                     </NavLink>
                   </li>
-                  <li className="menu_item">
+{/*                   <li className="menu_item">
                     <NavLink onClick={handleToggle} to="contact" className="my-3">
                       Contact
                     </NavLink>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
