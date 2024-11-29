@@ -16,8 +16,8 @@ export const routes = [
     path: "/portfolio",
     component: Portfolio,
   },
-  {
-    path: "/contact",
-    component: Contact,
-  },
+  // {
+  //   path: "/contact",
+  //   component: Contact,
+  // },
 ];
