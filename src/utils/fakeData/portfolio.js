@@ -24,6 +24,12 @@ export const dataPortfolio = [
   },
 
   {
+    image: import("../../assets/images/habbithub.png"),
+    description: "Habbit-Tracker",
+    link: "https://github.com/deceser/habitHUB-RN-APP/",
+  },
+
+  {
     image: import("../../assets/images/qualyfid.png"),
     description: "Qualyfid.ai",
     link: "https://qualyfid.ai/",
